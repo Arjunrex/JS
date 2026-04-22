@@ -1,11 +1,3 @@
-// 1️⃣ Student Data
-let students = [
- {id:1, name:"Naveen", mark:85, course:"MERN"},
- {id:2, name:"John", mark:45, course:"Python"},
- {id:3, name:"Priya", mark:72, course:"Java"},
- {id:4, name:"Arun", mark:95, course:"React"}
-];
-
 
 // 📌 Task 1: Print All Students
 for(let i=0; i<students.length; i++){
