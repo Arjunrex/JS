@@ -1,16 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fake Store API Project</title>
+
+  <link rel="stylesheet" href="style5.css">
 </head>
+
 <body>
-<h1>Welcome to JavaScript Page</h1>
+ <!-- <h1>Welcome to JavaScript Page</h1> -->
+
+  <header>
+    <h1>Fake Store Products</h1>
+
+    <div class="top-controls">
+
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search products..."
+      />
+
+      <select id="categoryFilter">
+        <option value="all">All Categories</option>
+      </select>
+
+      <select id="sortPrice">
+        <option value="default">Sort By Price</option>
+        <option value="low">Low to High</option>
+        <option value="high">High to Low</option>
+      </select>
+
+    </div>
+  </header>
+
+  <h2 id="loading">Loading...</h2>
+
+  <div class="products-container" id="productsContainer"></div>
+
+  
 <!-- <script src="script.js"></script>
 <script src="task2.js"></script> -->
-<script src="script3.js"></script>
+<!-- <script src="script3.js"></script>
+<script src="script4.js"></script> -->
 
-    
+<script src="script5.js"></script>
+
 </body>
 </html>
